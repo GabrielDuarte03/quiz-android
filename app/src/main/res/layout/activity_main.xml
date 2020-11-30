@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FF2E2E2E"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_black"
+                android:gravity="center"
+
+                android:text="Vamos começar?"
+                android:textColor="#000000"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundtv"
+                android:fontFamily="@font/roboto"
+
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textFontWeight="600"
+                android:textAlignment="textStart"
+                android:text="O quiz funciona da seguinte forma:\n\n- Quando clicar no botão iniciar, o quiz iniciará.\n - Irá aparecer na sua tela uma pergunta relacionada a geografia.\n- Irá aparecer também as opções de resposta. Uma na parte superior da tela, e outra na parte inferior.\n- Incline o celular para a opção que acha correta, logo após isso, você irá saber se a resposta estava correta.\n- Ao final, você saberá quantas questões acertou."
+                android:lineSpacingExtra="8dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:clickable="true"
+                android:onClick="comecar"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="INICIAR O QUIZ"
+                android:textColor="#D1EC00"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:srcCompat="@drawable/circuloverde" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
